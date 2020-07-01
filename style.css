@@ -1,0 +1,138 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav{
+    background:#2c3e50;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.nav::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.nav ul li{
+float: left;
+margin-right: 10px;
+}
+.nav ul li a{
+    color: snow;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: block;
+    
+}
+.nav ul li a:hover{
+    background: #e74c3c;
+}
+.nav ul li.active{
+    background: #e74c3c;
+}
+.text-hilight{
+color: #e74c3c;
+font-size: 50px;
+text-align: center;
+}
+
+
+.half-width h1{
+    color: darkblue;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 0;
+    }
+.half-width{
+width: 40%;
+float: left;
+margin-left: 5%;
+text-transform: capitalize;
+}
+
+.half-width img{
+  width: 60%;
+  border-radius: 15%;
+    }
+.half-width p{
+    font-size: 16px;
+    color: #5e2353;
+}
+.link-button{
+    background-image: linear-gradient(45deg, lightsalmon, red);
+    color: seashell;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+
+}
+.half-width a:hover{
+    background: #3498db;
+}
+
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+
+section{
+    height: 600px;
+    padding-bottom: 100px;
+}
+
+
+h2{
+    font-size: 45px;
+}
+.drea-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.drea-area img{
+  margin-bottom: 100px;
+}
+.single{
+    box-shadow: 10px 10px 40px  gray;
+    border-radius: 10px;
+    height: 60%;
+}
+.single h2,h3,p{
+    margin-left: 20px;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg lightsalmon, Tahoma);
+    border-image-slice: 1;
+}
+#wordpress{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, Tahoma);
+    border-image-slice: 1;
+}
+.footer{
+    text-align: center;
+    background-color: gray;
+    padding: 10px;
+    color: honeydew;
+}
